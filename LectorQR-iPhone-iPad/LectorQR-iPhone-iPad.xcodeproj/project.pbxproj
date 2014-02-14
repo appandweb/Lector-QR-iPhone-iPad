@@ -19,6 +19,8 @@
 		B2B57BA918AE18E700AE23CD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B2B57B9118AE18E700AE23CD /* UIKit.framework */; };
 		B2B57BB118AE18E700AE23CD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B2B57BAF18AE18E700AE23CD /* InfoPlist.strings */; };
 		B2B57BB318AE18E700AE23CD /* LectorQR_iPhone_iPadTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B57BB218AE18E700AE23CD /* LectorQR_iPhone_iPadTests.m */; };
+		B2B57BBD18AE193800AE23CD /* main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B2B57BBC18AE193800AE23CD /* main.storyboard */; };
+		B2B57BC018AE199100AE23CD /* LectorQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B2B57BBF18AE199100AE23CD /* LectorQRViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		B2B57BAE18AE18E700AE23CD /* LectorQR-iPhone-iPadTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LectorQR-iPhone-iPadTests-Info.plist"; sourceTree = "<group>"; };
 		B2B57BB018AE18E700AE23CD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B2B57BB218AE18E700AE23CD /* LectorQR_iPhone_iPadTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LectorQR_iPhone_iPadTests.m; sourceTree = "<group>"; };
+		B2B57BBC18AE193800AE23CD /* main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = main.storyboard; sourceTree = "<group>"; };
+		B2B57BBE18AE199100AE23CD /* LectorQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LectorQRViewController.h; sourceTree = "<group>"; };
+		B2B57BBF18AE199100AE23CD /* LectorQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LectorQRViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				B2B57B9D18AE18E700AE23CD /* AppDelegate.m */,
 				B2B57B9F18AE18E700AE23CD /* Images.xcassets */,
 				B2B57B9418AE18E700AE23CD /* Supporting Files */,
+				B2B57BBC18AE193800AE23CD /* main.storyboard */,
+				B2B57BBE18AE199100AE23CD /* LectorQRViewController.h */,
+				B2B57BBF18AE199100AE23CD /* LectorQRViewController.m */,
 			);
 			path = "LectorQR-iPhone-iPad";
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B2B57B9818AE18E700AE23CD /* InfoPlist.strings in Resources */,
+				B2B57BBD18AE193800AE23CD /* main.storyboard in Resources */,
 				B2B57BA018AE18E700AE23CD /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -241,6 +250,7 @@
 			files = (
 				B2B57B9E18AE18E700AE23CD /* AppDelegate.m in Sources */,
 				B2B57B9A18AE18E700AE23CD /* main.m in Sources */,
+				B2B57BC018AE199100AE23CD /* LectorQRViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
